@@ -1,0 +1,113 @@
+
+
+.navbar-custom .navbar-nav .nav-link {
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.nameinfo {
+    font-size: 35px;
+    font-style:  normal;
+}
+
+.skillsinfo {
+    font-size: 30px;
+    font-style:  normal;
+}
+
+@media screen and (max-width: 700px) {
+    .wordwrap
+    {
+      width: 300px;
+      word-wrap: break-word;
+    }
+  }
+
+.contactinfo
+{
+    font-size: 30px; 
+    font-style:  normal;
+    padding-left: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    .contactinfo
+{
+    font-size: 30px; 
+    padding-left: 20px;
+}
+  }
+
+.headingPortfolio
+{
+    font-size: 40px;
+    color: white;
+}
+
+.example-card {
+    max-width: 400px;
+    min-height: 150px;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color: white;
+  }
+
+  #name {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+  #Information {
+      padding-top: 20px;
+      padding-bottom: 30px;
+      background-color: cornflowerblue;
+      color: white;
+  }
+
+  @media screen and (max-width: 1550px) {
+    #Information {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: cornflowerblue;
+        color: white;
+    }
+  }
+
+  #Projects {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+@media screen and (max-width: 1550px) {
+    #Projects {
+        background-color: cornflowerblue;
+        color: white;
+    }
+}
+
+#footer{
+    background-color: cornflowerblue;
+    color: white;  
+    min-height: 300px;
+}
+
+@media screen and (max-width: 1550px) {
+    #footer{
+        background-color: cornflowerblue;
+        color: white;  
+        min-height: 100px;
+    }
+}
+
+
+
+.link {
+  color: yellow;
+}
+
+
+  
