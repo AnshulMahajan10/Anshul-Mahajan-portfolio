@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-Anshul';
+
+
+  openFile()
+  {
+    window.open("./Anshul-Mahajan-Resume.pdf");
+  }
 }

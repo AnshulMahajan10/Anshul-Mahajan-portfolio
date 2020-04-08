@@ -1,11 +1,12 @@
 
 
-<nav class="navbar navbar-expand-lg navbar-custom navbar-light" >
-  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-custom navbar-light" >
+  <!-- <a class="navbar-brand" href="#">Home</a> -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <!-- <span>Menu</span> -->
-    <span class="navbar-toggler-icon"></span>
+    <!-- <span class="navbar-toggler-icon"></span> -->
+    Menu
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
 
@@ -13,6 +14,10 @@
       <li class="nav-item " data-toggle="collapse" data-target=".navbar-collapse.show">
         <a class="nav-link" href="assets/Anshul-Mahajan-Resume.pdf" target="_blank">
           Resume <span class="sr-only">(current)</span></a>
+          <!-- <a class="nav-link" href="resume/Anshul-Mahajan-Resume.pdf" target="_blank">
+            Resume <span class="sr-only">(current)</span></a> -->
+          <!-- <a class="nav-link"  routerLink="/resume" >
+            Resume <span class="sr-only">(current)</span></a> -->
       </li>
       <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
         <a class="nav-link" href="#Projects" >Projects</a>
@@ -47,120 +52,7 @@
   </div> -->
 </nav>
 
-
-
-<div class="container-fluid" id="name">
-
-  <div class="row">
-
-    <div class="col-4 ">
-
-    </div>
-
-    <div class="col-5 nameinfo">
-      Anshul Mahajan<br>
-      Full Stack Developer<br>
-      Location: Toronto
-    
-    </div>
+<router-outlet></router-outlet>
 
 
 
-  <div class="col-4">
-
-  </div>
-
-  
-</div>
-
-</div>
-
-<div class="container-fluid" id="Information">
-
-<br>
-
-<div class="row">
-
-  <div class="col contactinfo">
-
-  
-    Email:<a href="mailto:anshulmahajan10@gmail.com" target="_top" class="link wordwrap">anshulmahajan10@gmail.com</a>
-    <br>Cell: 4168576486
-
-</div>
-
-
-<div class="col skillsinfo">
-    Skills:<br>
-    Angular, Node, Firebase, Google Cloud<br>
-    Java Script, Type Script, HTML, CSS<br>
-    SQL Server, Informatica, Oracle<br>
-    
-</div>
-
-
-
-
-
-</div>
-  
-</div>
-
-
-
-<div class="container-fluid" id="Projects">
-
-   
-
-    <div class="row">
-  
-        <div class="col">
-    
-        </div>
-        
-      <div class="col headingPortfolio">
-          Recent Projects:
-      </div>
-    
-      <div class="col">
-        </div>
-    
-    </div>
-
-    <br><br>
-
-    <div class="row">
-  
-      <div class="col">
-        <mat-card class="example-card">
-        Employer:Solis Healthcare<br>
-        Location:North York, Toronto(2019-Current)<br>
-        <a href="https://apotex360.ca/home" target="_blank" class="link">Demo</a>
-      </mat-card>
-      </div>
-      
-    <div class="col">
-      <mat-card class="example-card">
-        Client:Sahaja Yoga DC(2018)<br>
-        <a href="https://serene-journey-67398.herokuapp.com/home" target="_blank" class="link">Demo</a>
-      </mat-card>  
-    </div>
-
-    <div class="col">
-      <mat-card class="example-card">
-      Client:Active Health Management(Aetna)<br>
-      ETL Consultant(2014-2019)
-    </mat-card>
-  </div>
-  
-    
-  
-  </div>
-    
-  </div>
-
-  <div class="container-fluid" id="footer">
-    
-  </div>
-
-  
