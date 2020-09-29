@@ -5,6 +5,8 @@
 .navbar-custom .navbar-nav .nav-link {
     color: #5896D7;
     font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .navbar-toggler {
@@ -15,7 +17,7 @@
     color: white;
     border: 0;
     background-color: #5896D7;
-  }
+}
 
 #name {
     padding-top: 100px;
@@ -26,73 +28,68 @@
 
 .nameinfo {
     font-size: 35px;
-    font-style:  normal;
+    font-style: normal;
     text-align: center;
 }
 
 @media screen and (max-width: 800px) {
     .nameinfo {
         font-size: 25px;
-        font-style:  normal;
+        font-style: normal;
         text-align: left;
     }
-  }
+}
 
 .skillsinfo {
     font-size: 30px;
-    font-style:  normal;
+    font-style: normal;
     text-align: center;
 }
 
 @media screen and (max-width: 800px) {
     .skillsinfo {
         font-size: 20px;
-        font-style:  normal;
+        font-style: normal;
         text-align: left;
     }
-  }
+}
 
 @media screen and (max-width: 700px) {
-    .wordwrap
-    {
-      width: 300px;
-      word-wrap: break-word;
+    .wordwrap {
+        width: 300px;
+        word-wrap: break-word;
     }
-  }
+}
 
-.contactinfo
-{
-    font-size: 30px; 
-    font-style:  normal;
+.contactinfo {
+    font-size: 30px;
+    font-style: normal;
     text-align: center;
     //padding-left: 200px;
 }
 
 @media screen and (max-width: 800px) {
-    .contactinfo
-{
-    font-size: 20px; 
-    text-align: left;
-    padding-top: 20px;
-   // padding-left: 20px;
+    .contactinfo {
+        font-size: 20px;
+        text-align: left;
+        padding-top: 20px;
+        // padding-left: 20px;
+    }
 }
-  }
 
-.headingPortfolio
-{
+.headingPortfolio {
     font-size: 40px;
     color: white;
     text-align: center;
 }
 
 @media screen and (max-width: 800px) {
-    .headingPortfolio
-    {
+    .headingPortfolio {
         font-size: 28px;
         color: white;
         text-align: left;
     }
-  }
+}
 
 .example-card {
     max-width: 400px;
@@ -100,27 +97,25 @@
     font-size: 20px;
     background-color: #5896D7;
     color: white;
-  }
+}
 
+#Information {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #5896D7;
+    color: white;
+}
 
-
-  #Information {
-      padding-top: 20px;
-      padding-bottom: 30px;
-      background-color: #5896D7;
-      color: white;
-  }
-
-  @media screen and (max-width: 1550px) {
+@media screen and (max-width: 1550px) {
     #Information {
         padding-top: 10px;
         padding-bottom: 20px;
         background-color: #5896D7;
         color: white;
     }
-  }
+}
 
-  #Projects {
+#Projects {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #5896D7;
@@ -134,25 +129,20 @@
     }
 }
 
-#footer{
+#footer {
     background-color: #5896D7;
-    color: white;  
+    color: white;
     min-height: 300px;
 }
 
 @media screen and (max-width: 1550px) {
-    #footer{
+    #footer {
         background-color: #5896D7;
-        color: white;  
+        color: white;
         min-height: 100px;
     }
 }
 
-
-
 .link {
-  color: yellow;
+    color: yellow;
 }
-
-
-  
