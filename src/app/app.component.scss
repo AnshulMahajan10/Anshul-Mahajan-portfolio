@@ -1,9 +1,21 @@
+.bodys {
+    //text-align: center;
+    //color: white;
+    background-image: url("/assets/img/photo-1516541196182-6bdb0516ed27.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    max-height: 100px;
+}
+
 .navbar-custom {
-    background-color: #e3f2fd;
+    //background-color: #e3f2fd;
+    // background-color: white;
 }
 
 .navbar-custom .navbar-nav .nav-link {
-    color: #5896D7;
+    //color: #5896D7;
     font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -14,7 +26,7 @@
     //right: 0;
     padding: 10px;
     //text-transform: uppercase;
-    color: white;
+    // color: white;
     border: 0;
     background-color: #5896D7;
 }

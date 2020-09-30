@@ -1,3 +1,14 @@
+.bodys {
+    //text-align: center;
+    //color: white;
+    background-image: url("/assets/img/photo-1516541196182-6bdb0516ed27.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    max-height: 1000px;
+}
+
 .navbar-custom {
     background-color: #e3f2fd;
 }
@@ -10,16 +21,28 @@
 #name {
     padding-top: 200px;
     padding-bottom: 150px;
-    background-color: #5896D7;
-    color: white;
+    //background-color: #5896D7;
+    color: black;
 }
 
 @media screen and (max-width: 2050px) {
     #name {
         padding-top: 200px;
         padding-bottom: 150px;
-        background-color: #5896D7;
-        color: white;
+        //background-color: #5896D7;
+        //background-color: #e3f2fd;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #name {
+        padding-top: 150px;
+        padding-bottom: 120px;
+        //background-color: #5896D7;
+        //background-color: #e3f2fd;
+        color: black;
+        text-align: left;
     }
 }
 
@@ -33,17 +56,19 @@
     .nameinfo {
         font-size: 75px;
         font-style: normal;
-        text-align: center;
-        color: wheat;
+        text-align: left;
+        padding-left: 200px;
+        //color: black;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
 
 @media screen and (max-width: 800px) {
     .nameinfo {
-        font-size: 25px;
+        font-size: 35px;
         font-style: normal;
         text-align: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
 
@@ -118,14 +143,14 @@
 
 .headingPortfolio {
     font-size: 40px;
-    color: white;
+    color: black;
     text-align: center;
 }
 
 @media screen and (max-width: 800px) {
     .headingPortfolio {
         font-size: 28px;
-        color: white;
+        color: black;
         text-align: left;
         //color: yellow;
     }
@@ -135,9 +160,10 @@
     max-width: 400px;
     min-height: 150px;
     font-size: 20px;
-    background-color: #5896D7;
-    color: white;
-    border: 1px solid white;
+    //background-color: #5896D7;
+    color: black;
+    //border: 1px solid white;
+    border: 1px solid black;
     // background-color: white;
     // color: #5896D7;
 }
@@ -148,8 +174,8 @@
         min-width: 200px;
         min-height: 150px;
         font-size: 20px;
-        background-color: #5896D7;
-        color: white;
+        //background-color: #5896D7;
+        color: black;
         text-align: left;
     }
 }
@@ -157,30 +183,30 @@
 #Information {
     padding-top: 20px;
     padding-bottom: 30px;
-    background-color: #5896D7;
-    color: white;
+    //background-color: #5896D7;
+    // color: white;
 }
 
 @media screen and (max-width: 1550px) {
     #Information {
         padding-top: 10px;
         padding-bottom: 20px;
-        background-color: #5896D7;
-        color: white;
+        // background-color: #5896D7;
+        color: black;
     }
 }
 
 #Projects {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #5896D7;
-    color: white;
+    // background-color: #5896D7;
+    color: black;
 }
 
 @media screen and (max-width: 1550px) {
     #Projects {
-        background-color: #5896D7;
-        color: white;
+        //background-color: #5896D7;
+        color: black;
     }
 }
 
