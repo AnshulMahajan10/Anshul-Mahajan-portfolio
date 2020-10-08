@@ -22,13 +22,16 @@
 }
 
 .navbar-toggler {
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     //right: 0;
     padding: 10px;
     //text-transform: uppercase;
     // color: white;
     border: 0;
-    background-color: #5896D7;
+    color: white;
+    background-color: rgb(192, 150, 60);
+    ;
 }
 
 #name {
