@@ -1,12 +1,25 @@
 .bodys {
     //text-align: center;
     //color: white;
-    background-image: url("/assets/img/photo-1516541196182-6bdb0516ed27.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
+    // background-image: url("/assets/img/photo-1516541196182-6bdb0516ed27.jpg");
+    // background-repeat: no-repeat;
+    // background-attachment: scroll;
+    // background-position: center center;
+    // background-size: cover;
     max-height: 1000px;
+}
+
+@media screen and (max-width: 800px) {
+    .bodys {
+        //text-align: center;
+        //color: white;
+        // background-image: url("/assets/img/photo-1516541196182-6bdb0516ed27.jpg");
+        // background-repeat: no-repeat;
+        // background-attachment: scroll;
+        // background-position: center center;
+        // background-size: cover;
+        max-height: 300px;
+    }
 }
 
 .navbar-custom {
@@ -37,9 +50,20 @@
     }
 }
 
+@media screen and (max-width: 1400px) {
+    #name {
+        padding-top: 200px;
+        padding-bottom: 150px;
+        //background-color: #5896D7;
+        //background-color: #e3f2fd;
+        color: rgb(192, 150, 60);
+        //font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
 @media screen and (max-width: 800px) {
     #name {
-        padding-top: 150px;
+        padding-top: 70px;
         padding-bottom: 120px;
         //background-color: #5896D7;
         //background-color: #e3f2fd;
@@ -50,14 +74,30 @@
 }
 
 .nameinfo {
-    font-size: 85px;
+    font-size: 95px;
     //font-style: normal;
-    text-align: center;
+    float: left;
+    padding-left: 850px;
 }
 
 @media screen and (max-width: 2050px) {
     .nameinfo {
         font-size: 80px;
+        float: left;
+        padding-left: 470px;
+        //font-style: normal;
+        // text-align: left;
+        // padding-left: 200px;
+        //color: black;
+        //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .nameinfo {
+        font-size: 80px;
+        float: left;
+        padding-left: 370px;
         //font-style: normal;
         // text-align: left;
         // padding-left: 200px;
@@ -70,16 +110,67 @@
     .nameinfo {
         font-size: 35px;
         // font-style: normal;
-        text-align: left;
+        float: left;
+        padding-left: 10px;
         //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
+
+.developer {
+    font-size: 35px;
+    //font-style: normal;
+    float: left;
+    padding-left: 850px;
+    color: black;
+}
+
+@media screen and (max-width: 2050px) {
+    .developer {
+        font-size: 30px;
+        color: black;
+        float: left;
+        padding-left: 470px;
+        //color: black;
+        //font-style: normal;
+        // text-align: left;
+        // padding-left: 200px;
+        //color: black;
+        //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .developer {
+        font-size: 30px;
+        color: black;
+        float: left;
+        padding-left: 370px;
+        //color: black;
+        //font-style: normal;
+        // text-align: left;
+        // padding-left: 200px;
+        //color: black;
+        //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .developer {
+        font-size: 25px;
+        color: black;
+        // font-style: normal;
+        float: left;
+        padding-left: 10px;
+        //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
 
 .about {
     font-size: 40px;
     color: rgb(192, 150, 60);
     font-style: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    //font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media screen and (max-width: 2050px) {
@@ -103,6 +194,8 @@
 .skillsinfo {
     font-size: 30px;
     font-style: normal;
+    color: black;
+    
     //text-align: left;
     //padding-left: 800px;
 }
@@ -111,6 +204,7 @@
     .skillsinfo {
         font-size: 30px;
         font-style: normal;
+        color: black;
         //text-align: left;
         //padding-left: 250px;
     }
@@ -118,8 +212,9 @@
 
 @media screen and (max-width: 1100px) {
     .skillsinfo {
-        font-size: 20px;
-        font-style: normal;
+        font-size: 25px;
+        //font-style: normal;
+        color: black;
         //text-align: left;
         //padding-left: 0px;
     }
@@ -167,6 +262,9 @@
         padding-top: 20px;
         //padding-left: 0px;
     }
+}
+a:link {
+    color: black;
 }
 
 .headingPortfolio {
