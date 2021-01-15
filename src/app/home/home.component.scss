@@ -2,28 +2,26 @@
     padding-top: 50px;
 }
 
+@media screen and (max-width: 1100px) {
+    .bodyone {
+        max-height: 500px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bodyone {
+        max-height: 300px;
+    }
+}
+
 
 .bodys {
-    //text-align: center;
-    //color: white;
-    // background-image: url("/assets/img/photo-1516541196182-6bdb0516ed27.jpg");
-    // background-repeat: no-repeat;
-    // background-attachment: scroll;
-    // background-position: center center;
-    // background-size: cover;
     max-height: 1000px;
 }
 
 @media screen and (max-width: 800px) {
     .bodys {
-        //text-align: center;
-        //color: white;
-        // background-image: url("/assets/img/photo-1516541196182-6bdb0516ed27.jpg");
-        // background-repeat: no-repeat;
-        // background-attachment: scroll;
-        // background-position: center center;
-        // background-size: cover;
-        max-height: 300px;
+        max-height: 400px;
     }
 }
 
@@ -67,17 +65,17 @@
 //     }
 // }
 
-// @media screen and (max-width: 800px) {
-//     #name {
-//         padding-top: 70px;
-//         padding-bottom: 120px;
-//         //background-color: #5896D7;
-//         //background-color: #e3f2fd;
-//         color: rgb(192, 150, 60);
-//         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-//         text-align: left;
-//     }
-// }
+@media screen and (max-width: 800px) {
+    #name {
+        padding-top: 70px;
+        padding-bottom: 120px;
+        //background-color: #5896D7;
+        //background-color: #e3f2fd;
+        color: rgb(192, 150, 60);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+    }
+}
 
 .nameinfo {
     font-size: 100px;
@@ -105,13 +103,13 @@
 //     }
 // }
 
-// @media screen and (max-width: 800px) {
-//     .nameinfo {
-//         font-size: 35px;
-//         float: left;
-//         padding-left: 10px;
-//     }
-// }
+@media screen and (max-width: 800px) {
+    .nameinfo {
+        font-size: 35px;
+        float: left;
+        padding-left: 10px;
+    }
+}
 
 .developer {
     font-size: 45px;
@@ -140,15 +138,29 @@
 //     }
 // }
 
-// @media screen and (max-width: 800px) {
-//     .developer {
-//         font-size: 25px;
-//         color: black;
-//         float: left;
-//         padding-left: 10px;
+@media screen and (max-width: 800px) {
+    .developer {
+        font-size: 25px;
+        color: black;
+        float: left;
+        padding-left: 10px;
       
-//     }
-// }
+    }
+}
+
+#Information {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    //background-color: #5896D7;
+    // color: white;
+}
+
+@media screen and (max-width: 1550px) {
+    #Information {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
 
 .dot {
     color:  rgb(192, 150, 60);
@@ -161,10 +173,10 @@
 .about {
     font-size: 100px;
     font-family: "Playfair Display", serif;
-    color: transparentize($color: #000000, $amount: 0);
-    // color: rgb(192, 150, 60);
+     color: transparent;
+     -webkit-text-stroke: 2px black;
     font-style: bold;
-    //font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 // @media screen and (max-width: 2050px) {
@@ -176,14 +188,15 @@
 //     }
 // }
 
-// @media screen and (max-width: 1100px) {
-//     .about {
-//         font-size: 30px;
-//         color: rgb(192, 150, 60);
-//         font-style: bold;
-//         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-//     }
-// }
+@media screen and (max-width: 1100px) {
+    .about {
+        font-size: 30px;
+        font-family: "Playfair Display", serif;
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+        font-style: bold;
+    }
+}
 
 .skillsinfo {
     font-size: 30px;
@@ -282,85 +295,29 @@ a:link {
     color: black;
 }
 
-.headingPortfolio {
-    font-size: 40px;
-    color: black;
-    text-align: center;
-}
-
-@media screen and (max-width: 800px) {
-    .headingPortfolio {
-        font-size: 28px;
-        color: black;
-        text-align: left;
-        //color: yellow;
-    }
-}
 
 .example-card {
     max-width: 400px;
-    min-height: 150px;
-    font-size: 20px;
-    //background-color: #5896D7;
-    color: black;
-    //border: 1px solid white;
-    border: 1px solid black;
-    // background-color: white;
-    // color: #5896D7;
-}
+    align-items: center;
+  }
+  
+  .example-header-image {
+    background-image: url('../../assets/img/apotex360.PNG');
+    background-size: cover;
+  }
 
-@media screen and (max-width: 800px) {
-    .example-card {
-        max-width: 400px;
-        min-width: 200px;
-        min-height: 150px;
-        font-size: 20px;
-        //background-color: #5896D7;
-        color: black;
-        text-align: left;
-    }
-}
+  .button
+  {
+    //   color: rgb(192, 150, 60);
+      color: black;
+      background-color: rgb(192, 150, 60);
+  }
 
-#Information {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    //background-color: #5896D7;
-    // color: white;
-}
 
-@media screen and (max-width: 1550px) {
-    #Information {
-        padding-top: 10px;
-        padding-bottom: 20px;
-        // background-color: #5896D7;
-        //color: black;
-    }
-}
 
-#Projects {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    // background-color: #5896D7;
-    color: black;
-}
 
-@media screen and (max-width: 1550px) {
-    #Projects {
-        //background-color: #5896D7;
-        color: black;
-    }
-}
 
-#projectslist {
-    max-width: 1000px;
-    //background-color: white;  
-}
 
-@media screen and (max-width: 800px) {
-    #projectslist {
-        max-width: 1000px;
-    }
-}
 
 #footer {
     background-color: #5896D7;
