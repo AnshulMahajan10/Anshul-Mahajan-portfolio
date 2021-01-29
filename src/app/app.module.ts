@@ -9,6 +9,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     BrowserAnimationsModule,
     MatCardModule,
     MatIconModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

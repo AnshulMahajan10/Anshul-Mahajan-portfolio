@@ -21,6 +21,13 @@
     padding-right: 30px;
 }
 
+
+.nav-link:hover {
+    background-color: rgb(192, 150, 60);
+    transform: scale(1);
+    transition: all 0.3s ease;
+  }
+
 .navbar-toggler {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -33,6 +40,7 @@
     background-color: rgb(192, 150, 60);
     ;
 }
+
 
 #name {
     padding-top: 100px;
@@ -161,3 +169,13 @@
 .link {
     color: yellow;
 }
+
+.back-to-top {
+    position: fixed;
+    color: rgb(192, 150, 60);
+    font-size: xx-large;
+    /* display: none; */
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+  }
